@@ -1,0 +1,13 @@
+Approach Towards the Problem:
+
+1. No Static Site:
+	> Since the site is not a static site. It has used Javascript to show content on the page.
+	> Static Scraping [For e.g. one using Python's BeautifulSoup] completely ignores Javascript.
+	> As the content [Job Postings] we are looking for is not available through static scraping. 
+
+2. Dynamic Scraping:
+	> Dynamic Scraping uses actual browser and performs the simulation of Javascript rendering.
+
+3. Use of Selenium:
+	> Though developed for Testing, it's also the perfect tool for Web scraping.
+	> Ease of usability of Selenium in Python.
